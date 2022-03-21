@@ -75,7 +75,7 @@
 - 同一对象多次调用hashCode()方法返回的哈希值是相同的。
 - 默认情况下，不同对象的哈希值是不同的。
 
-![image-20220320115219298](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320115219298.png)
+![image-20220320115219298](img/image-20220320115219298.png)
 
 
 
