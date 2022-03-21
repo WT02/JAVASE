@@ -75,7 +75,7 @@
 - 同一对象多次调用hashCode()方法返回的哈希值是相同的。
 - 默认情况下，不同对象的哈希值是不同的。
 
-![image-20220320115219298](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320115219298.png)
+![image-20220320115219298](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320115219298.png)
 
 
 
@@ -84,9 +84,9 @@
 - 底层结构：哈希表（数组、链表、红黑树的结合体）。
 - 当挂在下面的数据过多时，查询性能降低；当链表长度超过8时，自动转换为红黑树。
 
-![image-20220320132932295](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320132932295.png)
+![image-20220320132932295](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320132932295.png)
 
-![image-20220320133008676](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320133008676.png)
+![image-20220320133008676](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320133008676.png)
 
 哈希表的详细流程
 
@@ -99,7 +99,7 @@
 
 ## HashSet元素去重复的底层原理
 
-![image-20220320133929134](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320133929134.png)
+![image-20220320133929134](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320133929134.png)
 
 - 在类中用快捷键重写hashCode()和equals()方法
 
@@ -107,7 +107,7 @@
 
 ## 实现类：LinkedHashSet
 
-![image-20220320135012555](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320135012555.png)
+![image-20220320135012555](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320135012555.png)
 
 
 
@@ -346,13 +346,12 @@ public class GameDemo {
 - Collection集合的格式：[元素1，元素2，元素3...]
 - Map集合的完整格式：{key1=value1,key2=value2,key3=value3,...}
 
-![image-20220320164338513](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320164338513.png)
-
+![image-20220320164338513](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320164338513.png)
 ### Map集合体系特点
 
-![image-20220320164548311](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320164548311.png)
+![image-20220320164548311](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320164548311.png)
 
-![image-20220320164644752](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320164644752.png)
+![image-20220320164644752](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320164644752.png)
 
 - Map集合的特点都是由键决定的
 - Map集合的键是无序，不重复的，无索引的，值不做要求（可重复）。
@@ -423,7 +422,7 @@ public class GameDemo {
 
 ### Map集合的遍历方式三：lambda表达式
 
-![image-20220320200414182](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320200414182.png)
+![image-20220320200414182](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320200414182.png)
 
 
 
@@ -461,23 +460,23 @@ public class MapTest {
 
 ### Map集合的实现类HashMap
 
-![image-20220320203038604](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320203038604.png)
+![image-20220320203038604](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320203038604.png)
 
-![image-20220320204439673](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320204439673.png)
+![image-20220320204439673](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320204439673.png)
 
 
 
 ### Map集合的实现类LinkedHashMap
 
-![image-20220320204545674](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320204545674.png)
+![image-20220320204545674](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320204545674.png)
 
 
 
 ### Map集合的实现类TreeMap
 
-![image-20220320204826312](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320204826312.png)
+![image-20220320204826312](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320204826312.png)
 
-![image-20220320205301243](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320205301243.png)
+![image-20220320205301243](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320205301243.png)
 
 ## 补充知识：集合的嵌套
 
