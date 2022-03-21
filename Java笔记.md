@@ -84,9 +84,9 @@
 - 底层结构：哈希表（数组、链表、红黑树的结合体）。
 - 当挂在下面的数据过多时，查询性能降低；当链表长度超过8时，自动转换为红黑树。
 
-![image-20220320132932295](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320132932295.png)
+![image-20220320132932295](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320132932295.png)
 
-![image-20220320133008676](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320133008676.png)
+![image-20220320133008676](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320133008676.png)
 
 哈希表的详细流程
 
@@ -99,7 +99,7 @@
 
 ## HashSet元素去重复的底层原理
 
-![image-20220320133929134](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320133929134.png)
+![image-20220320133929134](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320133929134.png)
 
 - 在类中用快捷键重写hashCode()和equals()方法
 
@@ -107,7 +107,7 @@
 
 ## 实现类：LinkedHashSet
 
-![image-20220320135012555](C:\Users\Bently\AppData\Roaming\Typora\typora-user-images\image-20220320135012555.png)
+![image-20220320135012555](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320135012555.png)
 
 
 
