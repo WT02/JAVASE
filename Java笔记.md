@@ -75,7 +75,7 @@
 - 同一对象多次调用hashCode()方法返回的哈希值是相同的。
 - 默认情况下，不同对象的哈希值是不同的。
 
-![image-20220320115219298](img/image-20220320115219298.png)
+![image-20220320115219298](https://github.com/WT02/clouding/blob/45b37cac2c3a0d24f4f4e75ca6f1f2dd8b687696/img/image-20220320115219298.png)
 
 
 
